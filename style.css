@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url('images.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 200px; 
+    height: 620px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1150px;
+    height: 80px;
+    padding: 10px;
+}
+#h4{
+    color: crimson;
+}
+#h2{
+    text-align: center;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+li:hover{
+    cursor: pointer;
+    color: brown;
+}
+.menucontainer{
+    display: flex;
+    gap: 25px;
+}
+.banner{
+    margin-top: 10px;
+    padding-left: 100px;
+}
+.button{
+    background-color: burlywood;
+    
+}
+#button{
+    padding-left: 50px;
+}
+.banner{
+    display: flex;
+    justify-content:space-between;
+}
+.servicecart{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+}
+.s1{
+    width: 300px;
+    height: 250px;
+    border: 1px solid sandybrown; 
+    text-align: center;
+    padding: 30px;
+
+}
+.u1{
+    text-align: center;
+}
+.fi{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.hier{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+}
+.b{
+    background-color: blue;
+    padding: 10px;
+}
+.last{
+    display: flex;
+    gap: 20px;
+}
+.colo{
+    color: brown;
+}
+.fo1{
+    width: 25%;
+
+}
+.fo2{
+    display: flex;
+}
+.se{
+    color: maroon;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.foter{
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+
+}
+.L{
+    list-style:circle;
+}
+#inpt{
+    color: blue;
+    background-color: cornsilk;
+    
+}
+.k{
+    padding-top: 10px;
+}
+@media only screen and (min_width:400px) and 
+(max-width:767px){
+    
+}
